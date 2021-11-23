@@ -6,17 +6,20 @@ int main()
     printf("enter a number");
     scanf("%d",&num);
     rem=num%2;
-    if(rem==0)
+    if(rem==0){
       printf("The number is even");
-    else
+        
+    }
+    else{
       printf("The number is odd");
-      
+        
+    }
+     
       
     return 0;
 
     
     
-  
     
 
 
